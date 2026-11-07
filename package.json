@@ -1,7 +1,7 @@
 {
-  "name": "superbank-backend",
+  "name": "superbank-pix-backend",
   "version": "1.0.0",
-  "type": "module",
+  "description": "Backend SuperBank Pix",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -9,7 +9,6 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2",
-    "mercadopago": "^2.0.8"
+    "mercadopago": "^2.3.0"
   }
 }
-
